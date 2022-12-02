@@ -8,13 +8,14 @@
   </head>
   <body>
     <script>
-      let useg = "AA";
-      let too = "00000000";
-      let niit = window.prompt("rigester oruulan uu", useg.concat(too));
-      if (too === 18) {
-        console.log("8 тэмдэгт нь бүхэлдээ тоо");
-      } else niit === 18;
-      console.log(niit.length);
+      let n = prompt("too oruulna uu ", "");
+      let sum = "";
+
+      while (n !== 0) {
+        sum = sum += 1;
+        n = Math.floor(n / 10);
+      }
+      alert(sum);
     </script>
   </body>
 </html>
