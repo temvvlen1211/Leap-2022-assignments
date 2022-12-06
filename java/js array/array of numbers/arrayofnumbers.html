@@ -12,36 +12,36 @@
       const arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 11];
       let sum = 0;
       // 2.
-      // while (i < arrayOfNumbers.length) {
-      //   sum += arrayOfNumbers[i];
-      //   i++;
-      // }
-      // console.log(sum);
+      while (i < arrayOfNumbers.length) {
+        sum += arrayOfNumbers[i];
+        i++;
+      }
+      console.log(sum);
       // 3.
-      // for (let i = 0; i < arrayOfNumbers.length; i++) {
-      //   if (arrayOfNumbers[sum] < arrayOfNumbers[i]) {
-      //     sum = i;
-      //   }
-      // }
-      // console.log(`${arrayOfNumbers[sum]} ni hamgiin ih too`);
+      for (let i = 0; i < arrayOfNumbers.length; i++) {
+        if (arrayOfNumbers[sum] < arrayOfNumbers[i]) {
+          sum = i;
+        }
+      }
+      console.log(`${arrayOfNumbers[sum]} ni hamgiin ih too`);
       // 4.
-      // for (let i = 0; i < arrayOfNumbers.length; i++) {
-      //   if (arrayOfNumbers[sum] > arrayOfNumbers[i]) {
-      //     sum = i;
-      //   }
-      // }
-      // console.log(`${arrayOfNumbers[sum]} ni hamgiin baga too`);
+      for (let i = 0; i < arrayOfNumbers.length; i++) {
+        if (arrayOfNumbers[sum] > arrayOfNumbers[i]) {
+          sum = i;
+        }
+      }
+      console.log(`${arrayOfNumbers[sum]} ni hamgiin baga too`);
       // 5.
-      // for (let i = arrayOfNumbers.length - 1; i >= 0; i--) {
-      //   arrayOfNumbers[i + 1] = arrayOfNumbers[1];
-      //   arrayOfNumbers[0] = 100;
-      // }
-      // console.log(arrayOfNumbers);
+      for (let i = arrayOfNumbers.length - 1; i >= 0; i--) {
+        arrayOfNumbers[i + 1] = arrayOfNumbers[1];
+        arrayOfNumbers[0] = 100;
+      }
+      console.log(arrayOfNumbers);
       // 6.
-      // for (let i = arrayOfNumbers.length; i >= 0; i--) {
-      //   arrayOfNumbers[11] = 200;
-      // }
-      // console.log(arrayOfNumbers);
+      for (let i = arrayOfNumbers.length; i >= 0; i--) {
+        arrayOfNumbers[11] = 200;
+      }
+      console.log(arrayOfNumbers);
     </script>
   </body>
 </html>
